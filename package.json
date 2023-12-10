@@ -1,0 +1,46 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "author": {
+    "name": "Ixe Fernández",
+    "url": "https://gudin.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/feguedi/nuxt-admin-dashboard"
+  },
+  "license": "LGPL-3.0-or-later",
+  "scripts": {
+    "lint:js": "eslint --ext \".ts,.vue\" --ignore-path .gitignore --ignore-path .eslintignore .",
+    "lint:prettier": "prettier --check .",
+    "lint": "pnpm lint:js && pnpm lint:prettier",
+    "lintfix": "prettier --write --list-different . && pnpm lint:js --fix",
+    "build": "nuxt build",
+    "dev": "nuxt dev --host",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/color-mode": "^3.3.2",
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "@nuxtjs/eslint-module": "^4.1.0",
+    "@typescript-eslint/parser": "^6.13.2",
+    "@vueuse/core": "^10.7.0",
+    "@vueuse/motion": "^2.0.0",
+    "@vueuse/nuxt": "^10.7.0",
+    "eslint": "^8.55.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "nuxt": "^3.8.2",
+    "prettier": "^3.1.0",
+    "sass": "^1.69.5",
+    "vue": "^3.3.10",
+    "vue-router": "^4.2.5"
+  }
+}
