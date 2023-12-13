@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     '@': path.resolve(__dirname, '/'),
   },
   modules: [
+    '@unocss/nuxt',
     ['@nuxtjs/eslint-module', { lintOnStart: false }],
     './modules/auto-import-eslint.ts',
   ],
