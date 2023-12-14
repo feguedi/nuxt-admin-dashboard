@@ -1,13 +1,18 @@
 import { defineConfig } from 'unocss';
-// import presetIcons from '@unocss/preset-icons';
+import presetUno from '@unocss/preset-uno';
+import presetIcons from '@unocss/preset-icons';
 
 export default defineConfig({
   attributify: true,
   icons: true,
-  // presets: [
-  //   presetIcons({}),
-  //   // ...other presets
-  // ],
+  presets: [
+    presetUno(),
+    presetIcons({
+      collections: {
+        carbon: () => import('@iconify-json/carbon/icons.json').then((i) => i.default),
+      },
+    }),
+  ],
   shortcuts: [
     [
       'btn',

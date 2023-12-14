@@ -5,7 +5,7 @@
     <br />
 
     <ClientOnly>
-      <Icon icon="i-carbon-car" class="text-4xl inline-block" />
+      <span class="i-carbon-car text-4xl inline-block" />
     </ClientOnly>
 
     <br />

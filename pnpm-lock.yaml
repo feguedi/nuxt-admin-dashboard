@@ -35,6 +35,9 @@ devDependencies:
   '@unocss/preset-icons':
     specifier: ^0.58.0
     version: 0.58.0
+  '@unocss/preset-uno':
+    specifier: ^0.58.0
+    version: 0.58.0
   '@unocss/reset':
     specifier: ^0.58.0
     version: 0.58.0
@@ -5046,6 +5049,7 @@ packages:
 
   /hash-sum@2.0.0:
     resolution: {integrity: sha512-WdZTbAByD+pHfl/g9QSsBIIwy8IT+EsPiKDs0KNX+zSHhdDLFKdZu0BQHljvO+0QI/BasbMSUa8wYNCZTvhslg==}
+    requiresBuild: true
     dev: true
 
   /hasown@2.0.0:
