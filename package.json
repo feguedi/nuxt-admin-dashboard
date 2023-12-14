@@ -23,6 +23,11 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@fullcalendar/core": "^6.1.10",
+    "@fullcalendar/daygrid": "^6.1.10",
+    "@fullcalendar/list": "^6.1.10",
+    "@fullcalendar/timegrid": "^6.1.10",
+    "@fullcalendar/vue3": "^6.1.10",
     "@iconify-json/carbon": "^1.1.26",
     "@iconify/vue": "^4.1.1",
     "@nuxt/devtools": "latest",
@@ -46,6 +51,7 @@
     "eslint-plugin-import": "^2.29.0",
     "eslint-plugin-prettier": "^5.0.1",
     "nuxt": "^3.8.2",
+    "plotly.js-dist": "^2.27.1",
     "prettier": "^3.1.0",
     "sass": "^1.69.5",
     "unocss": "^0.58.0",
